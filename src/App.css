@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+}
+#home {
+  max-width: 1440;
+  color: black;
+  margin-top: 41px;
+  margin-bottom: -555px;
+  /* text-align: center; */
+}
+#a,
+#b,
+#c {
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.carousel-control-prev,
+.carousel-control-next {
+  margin: 350px 20px 0px 20px;
+  height: 1cm;
+  width: 1cm;
+  background-color: rgba(128, 128, 128, 0.596);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* .col span {
+  border: 1px solid rgb(48, 130, 133);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+} */
+.Ad {
+  background-image: url("./components/images/Ads.jpg");
+  background-size: cover;
+  height: 550px;
+  color: rgb(39, 92, 94);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn {
+  width: 150px;
+  background-color: black;
   color: white;
+  padding: 5px;
 }
-
-.App-link {
-  color: #61dafb;
+.BS,
+.Un {
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: space-around; */
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Qst {
+  background-color: rgba(255, 235, 205, 0.719);
+  padding: 50px;
+}
+.ad1 {
+  background-image: url("./components/images/CB.jpg");
+  background-size: cover;
+  height: 270px;
+  padding: 50px 0px 0px 50px;
+  text-align: left;
+  color: rgba(165, 42, 42, 0.849);
+}
+.ad2 {
+  background-image: url("./components/images/MK.jpg");
+  background-size: cover;
+  height: 270px;
+  padding: 50px 0px 0px 50px;
+  text-align: left;
+}
+.btn-ad {
+  width: 150px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+.pict {
+  background-image: url("./components/images/pict.jpg");
+  background-size: cover;
+  width: 380px;
+  height: 700px;
+  padding: 530px 0px 0px 35px;
+  text-align: left;
+}
+.dg {
+  background-color: rgba(255, 235, 205, 0.719);
+  padding: 75px;
 }
