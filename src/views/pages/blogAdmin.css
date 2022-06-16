@@ -1,0 +1,22 @@
+.box {
+  display: flex;
+}
+
+.content {
+  width: 100%;
+}
+
+.blog thead {
+  background: rgb(5, 138, 143);
+  color: white;
+}
+tbody .td {
+  text-align: justify;
+}
+
+.blog h1 {
+  display: block;
+  text-align: center;
+  margin-top: 250px;
+  width: 100%;
+}

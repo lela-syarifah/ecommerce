@@ -12,12 +12,15 @@ body {
   margin: auto;
   font-family: "Poppins", sans-serif;
 }
-#page-container {
+.page-container {
   position: relative;
+  overflow: hidden;
 }
 #content-wrap {
   padding-bottom: auto;
 }
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

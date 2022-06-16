@@ -1,0 +1,180 @@
+{
+  "offer": [
+    {
+      "id": 1,
+      "p": "20% of the all order",
+      "h2": "Spring Collection"
+    }
+  ],
+  "bestSelling": [
+    {
+      "id": 1,
+      "merk": "Face Mist",
+      "rp": "$123.00",
+      "rpAsli": "$130.00"
+    },
+    {
+      "id": 2,
+      "merk": "Toner",
+      "rp": "$123.00",
+      "rpAsli": "$130.00"
+    },
+    {
+      "id": 3,
+      "merk": "Rose Water",
+      "rp": "$123.00",
+      "rpAsli": "$130.00"
+    },
+    {
+      "id": 4,
+      "merk": "Milk Cleanser",
+      "rp": "$123.00",
+      "rpAsli": "$130.00"
+    }
+  ],
+  "products": [
+    {
+      "gambar": "https://cdn.shopify.com/s/files/1/0243/8817/3888/products/Shampoo_ConditionerSet_300x.jpg?v=1644832621",
+      "nama": "body scrub",
+      "harga": "$30.0",
+      "detail": "Volup erat ipsum diam elitr rebum et dolor. Est nonumy elitr erat diam stet sit clita ea. Sanc invidunt ipsum et, labore clita lorem magna lorem ut.\t",
+      "id": 8
+    },
+    {
+      "gambar": "https://cf.shopee.co.id/file/6285c00d0db57c9ffa78fc63f75562a7",
+      "nama": "cocoeve cream",
+      "harga": "$23.0",
+      "detail": "Volup erat ipsum diam elitr rebum et dolor. Est nonumy elitr erat diam stet sit clita ea. Sanc invidunt ipsum et, labore clita lorem magna lorem ut.\t",
+      "id": 9
+    },
+    {
+      "gambar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzNCMEiXZquXz3SGF-oeDUwZLAYlB3gO8EGw&usqp=CAU",
+      "nama": "1set cocoeve beauty product",
+      "harga": "$52.0",
+      "detail": "Volup erat ipsum diam elitr rebum et dolor. Est nonumy elitr erat diam stet sit clita ea. Sanc invidunt ipsum et, labore clita lorem magna lorem ut.\t",
+      "id": 10
+    },
+    {
+      "gambar": "https://cf.shopee.co.id/file/6285c00d0db57c9ffa78fc63f75562a7",
+      "nama": "cilok",
+      "harga": "1500",
+      "detail": "bintang 1",
+      "id": 11
+    },
+    {
+      "gambar": "data:image/png;base64,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",
+      "nama": "sendal",
+      "harga": "Rp. 10.000",
+      "detail": "sendal bagus",
+      "id": 12
+    },
+    {
+      "gambar": "data:image/png;base64,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",
+      "nama": "mobil",
+      "harga": "Rp 5 jt",
+      "detail": "second",
+      "id": 13
+    }
+  ],
+  "blog": [
+    {
+      "pict": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmnv9GUS3dD_4GNunUD6Nbazman2a5PcGRi5gjhApqUMGyFZX6huvpkYlahtJL3WjmXJw&usqp=CAU",
+      "merek": "coco & eve",
+      "rp": "$150.0",
+      "desk": "Volup erat ipsum diam elitr rebum et dolor. Est nonumy elitr erat diam stet sit clita ea. Sanc invidunt ipsum et, labore clita lorem magna lorem ut.",
+      "tanggal": "April 23, 2022",
+      "id": 9
+    },
+    {
+      "pict": "https://cf.shopee.co.id/file/d4f299a83866ff032c42bb43ab9ceab9",
+      "merek": "lulur cocoeve",
+      "rp": "$34.0",
+      "desk": "Volup erat ipsum diam elitr rebum et dolor. Est nonumy elitr erat diam stet sit clita ea. Sanc invidunt ipsum et, labore clita lorem magna lorem ut.",
+      "tanggal": "April 28, 2022",
+      "id": 10
+    }
+  ],
+  "contact": [
+    {
+      "id": 1,
+      "maps": "https://maps.google.com/maps?q=SMK%20Bina%20Nusantara%20Semarang&t=&z=13&ie=UTF8&iwloc=&output=embed",
+      "alamat": "Jl. Kemantren Raya No.5, RT.02/RW.04, Wonosari, Kec. Ngaliyan, Kota Semarang, Jawa Tengah 50186",
+      "email": "smkbinusasmg@yahoo.com",
+      "telp": "(024) 8662971"
+    }
+  ],
+  "ourTeam": [
+    {
+      "id": 1,
+      "person": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Crystal_Clear_kdm_user_female.svg/1200px-Crystal_Clear_kdm_user_female.svg.png",
+      "name": "Cameron Williamson"
+    },
+    {
+      "id": 2,
+      "person": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Crystal_Clear_kdm_user_female.svg/1200px-Crystal_Clear_kdm_user_female.svg.png",
+      "name": "Cody Fisher"
+    },
+    {
+      "id": 3,
+      "person": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Crystal_Clear_kdm_user_female.svg/1200px-Crystal_Clear_kdm_user_female.svg.png",
+      "name": "Floyd Miles"
+    },
+    {
+      "id": 4,
+      "person": "https://tirtarangga.com/arsiptrs/gambar/sistem/user.png",
+      "name": "Arlene McCoy"
+    },
+    {
+      "id": 5,
+      "person": "https://tirtarangga.com/arsiptrs/gambar/sistem/user.png",
+      "name": "Ronald Ricard"
+    },
+    {
+      "id": 6,
+      "person": "https://tirtarangga.com/arsiptrs/gambar/sistem/user.png",
+      "name": "Jenny Wilson"
+    }
+  ],
+  "about": [
+    {
+      "id": 1,
+      "kategori": "Our Mission",
+      "konten": "Dear friends, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit animi amet quo, consequatur iste tempore sed itaque! Saepe sed aperiam ullam. Provident tempora, dolores eum accusamus iste fuga debitis laboriosam?  Dolore magna est eirmod sanctus dolor, amet diam et eirmod et ipsum. Amet dolore tempor consetetur sed lorem dolor sit lorem tempor. Gubergren amet amet labore sadipscing clita clita diam clita. Sea amet et sed ipsum lorem elitr et, amet et labore voluptua sit rebum. Ea erat sed et diam takimata sed justo. Magna takimata justo et amet magna et."
+    },
+    {
+      "id": 2,
+      "kategori": "Creative",
+      "konten": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id possimus, cupiditate repudiandae repellat, inventore ab exercitationem necessitatibus laudantium porro at, impedit architecto! Consequuntur incidunt impedit animi in veniam expedita doloremque."
+    },
+    {
+      "id": 3,
+      "kategori": "Sustainability",
+      "konten": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, cumque. Cupiditate perferendis dolor consequatur ad ullam culpa aut ex itaque eligendi error, nam inventore tenetur doloremque atque asperiores minus nisi."
+    }
+  ],
+  "profil": [
+    {
+      "id": 1,
+      "nama": "E-Commerce Bina Nusantara",
+      "alamat": "Jl. Kemantren Raya No.5, Wonosari, Kec. Ngaliyan, Kota Semarang, Jawa Tengah ",
+      "deskripsi": "Dolore erat dolor sit lorem vero amet. Sed sit lorem magna, ipsum no sit erat lorem et magna ipsum dolore amet erat."
+    }
+  ],
+  "question": [
+    {
+      "id": 1,
+      "h2": "Guaranteed Pure",
+      "p": "All Grace formulations adhere to strict purity standards and will never contain harsh or toxic ingredients"
+    },
+    {
+      "id": 2,
+      "h2": "Completely Cruelty-Free",
+      "p": "All Grace formulations adhere to strict purity standards and will never contain harsh or toxic ingredients"
+    },
+    {
+      "id": 3,
+      "h2": "Ingredient Sourcing",
+      "p": "All Grace formulations adhere to strict purity standards and will never contain harsh or toxic ingredients"
+    }
+  ]
+}

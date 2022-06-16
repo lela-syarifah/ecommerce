@@ -3,13 +3,18 @@
   padding: 0;
 }
 
-.all, .iqon {
+.all,
+.iqon {
   font-size: 18px;
 }
 
- /* {
+/* {
   font-size: 17px;
 } */
+
+.alamat {
+  text-align: justify;
+}
 
 .back-to-top,
 .sbnw {
@@ -102,4 +107,65 @@
   .ikon {
     text-align: center;
   }
+}
+
+.hdr-1 {
+  background: rgb(5, 138, 143);
+  padding: 10px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  display: flex;
+  color: white;
+}
+
+.header-menu {
+  display: flex;
+  gap: 25px;
+  color: white;
+}
+
+.header-menu p {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .hdr-1 {
+    display: block;
+    text-align: center;
+  }
+
+  .header-logo {
+    justify-content: center;
+  }
+
+  .header-logo a {
+    font-size: 25px;
+  }
+
+  .header-menu {
+    display: none;
+  }
+}
+.topbar {
+  margin: auto;
+  max-width: 1400px;
+}
+
+/* hdr-adm & ftr-adm css */
+.hdr-adm,
+.ftr-adm {
+  height: 58px;
+  background-color: rgb(235, 235, 235);
+}
+.list {
+  color: rgb(5, 138, 143);
+  font-size: xx-large;
+}
+.user {
+  font-size: xx-large;
+  color: rgb(5, 138, 143);
 }

@@ -1,0 +1,29 @@
+.box {
+  display: flex;
+}
+
+.content {
+  width: 100%;
+}
+
+.product thead {
+  background-color: rgb(5, 138, 143);
+  color: white;
+}
+tbody .td {
+  text-align: justify;
+}
+.kotak {
+  height: 400px;
+  overflow: scroll;
+}
+.btn-outline-warning.active,
+.btn-outline-warning:hover {
+  color: #fff;
+}
+.product h1 {
+  display: block;
+  text-align: center;
+  margin-top: 250px;
+  width: 100%;
+}

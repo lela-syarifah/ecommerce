@@ -1,38 +1,51 @@
-import React, { Component } from "react";
-import Navbar from "../components/Navbar";
-import "./pages.css";
+import axios from "axios";
+import React, { useState, useEffect } from "react";
+import Navbar from "../../components/Navbar/Navbar";
+import "./contact.css";
 
-export default class Contact extends Component {
-  render() {
-    return (
-      <div className="all">
-        <Navbar />
-        {/* Page Header Start  */}
+export default function Contact() {
+  const [kontak, setKontak] = useState([]);
+
+  useEffect(() => {
+    axios
+      .get("http://localhost:8000/contact")
+      .then((res) => {
+        console.log("dapat dari :", res.data);
+        setKontak(res.data);
+      })
+      .catch((err) => console.log(err));
+  }, []);
+
+  return (
+    <div className="all">
+      <Navbar />
+      {/* Page Header Start  */}
+      <div
+        className="container-fluid  mb-5"
+        style={{ backgroundColor: "rgb(145, 210, 212)" }}
+      >
         <div
-          className="container-fluid  mb-5"
-          style={{ backgroundColor: "rgb(145, 210, 212)" }}
+          className="d-flex flex-column align-items-center justify-content-center"
+          style={{ minHeight: "300px" }}
         >
-          <div
-            className="d-flex flex-column align-items-center justify-content-center"
-            style={{ minHeight: "300px" }}
-          >
-            <h1 className="font-weight-semi-bold text-uppercase mb-3">
-              Contact Us
-            </h1>
-            <div className="d-inline-flex">
-              <p className="m-0">
-                <a href="/" style={{ color: "rgb(5, 138, 143)" }}>
-                  Home
-                </a>
-              </p>
-              <p className="m-0 px-2">-</p>
-              <p className="m-0">Contact</p>
-            </div>
+          <h1 className="font-weight-semi-bold text-uppercase mb-3">
+            Contact Us
+          </h1>
+          <div className="d-inline-flex">
+            <p className="m-0">
+              <a href="/" style={{ color: "rgb(5, 138, 143)" }}>
+                Home
+              </a>
+            </p>
+            <p className="m-0 px-2">-</p>
+            <p className="m-0">Contact</p>
           </div>
         </div>
-        {/* Page Header End  */}
+      </div>
+      {/* Page Header End  */}
 
-        {/* Contact Start  */}
+      {/* Contact Start  */}
+      {kontak.map((kontak, index) => (
         <div className="container-fluid pt-5">
           <div className="text-center mb-4">
             <h2 className="section-title px-5">
@@ -43,9 +56,7 @@ export default class Contact extends Component {
                 <iframe
                   title="peta"
                   className="embed-responsive-item"
-                  src={
-                    "https://maps.google.com/maps?q=London%20Eye&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                  }
+                  src={kontak.maps}
                 ></iframe>
               </div>
             </div>
@@ -140,33 +151,33 @@ export default class Contact extends Component {
               </p>
               <div className="d-flex flex-column mb-3 pt-4">
                 <h5 className="font-weight-semi-bold mb-3">Store</h5>
-                <p className="mb-2">
+                <p className="mb-2 alamat">
                   <i
                     className="fa fa-map-marker-alt  mr-3"
                     style={{ color: "rgb(5, 138, 143)" }}
                   ></i>
-                  28F2+QH Wonosari, Kota Semarang, Jawa Tengah
+                  {kontak.alamat}
                 </p>
                 <p className="mb-2">
                   <i
                     className="fa fa-envelope  mr-3"
                     style={{ color: "rgb(5, 138, 143)" }}
                   ></i>
-                  smkbinusasmg@yahoo.com
+                  {kontak.email}
                 </p>
                 <p className="mb-2">
                   <i
                     className="fa fa-phone-alt  mr-3"
                     style={{ color: "rgb(5, 138, 143)" }}
                   ></i>
-                  (024) 8662971
+                  {kontak.telp}
                 </p>
               </div>
             </div>
           </div>
         </div>
-        {/* Contact End  */}
-      </div>
-    );
-  }
+      ))}
+      {/* Contact End  */}
+    </div>
+  );
 }

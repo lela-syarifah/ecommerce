@@ -3,17 +3,13 @@
   padding: 0;
 }
 
-/* .all {
-  font-size: 18px;
-} */
-
 /* shop css */
 .pagination .page-link {
   color: rgb(36, 166, 170);
 }
 .gmbr {
   width: 350px;
-  height : 250px;
+  height: 250px;
 }
 
 .ad1 {
@@ -50,21 +46,6 @@
   background-color: rgb(36, 166, 170);
   border-color: rgb(36, 166, 170);
 } */
-
-/* blog css */
-.label {
-/* margin: 25px 185px 0px 0px;
-  padding: 5px 5px 5px 10px; */
-  background-color: white;
-  opacity: 65%;
-  font-size: 15px;
-}
-
-.img {
-  background-image: url("../components/img/cove.jpg");
-  background-size: cover;
-  height: 200px;
-}
 
 /* product css */
 .price-input {
@@ -103,7 +84,7 @@ input[type="number"]::-webkit-inner-spin-button {
   font-size: 19px;
   align-items: center;
   justify-content: center;
-} 
+}
 .slider {
   height: 5px;
   position: relative;

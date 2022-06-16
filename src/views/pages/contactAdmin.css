@@ -1,0 +1,26 @@
+.box {
+  display: flex;
+}
+
+.content {
+  width: 100%;
+}
+
+.contact {
+  height: 493px;
+}
+
+.contact .card-header {
+  background: rgb(5, 138, 143);
+}
+
+.poto {
+  border-radius: 50%;
+}
+
+.contact h1 {
+  display: block;
+  text-align: center;
+  margin-top: 250px;
+  width: 100%;
+}
